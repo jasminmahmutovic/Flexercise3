@@ -1,0 +1,34 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.content {
+    display:flex;
+}
+
+.navbar {
+    position:fixed;
+    left:0;
+    height:100%;
+    width:200px;
+    padding:1em;
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(98, 40, 146)
+}
+
+.navbar a {
+    text-decoration:none;
+    font-family:arial;
+    color:White;
+    padding:0.5em;
+}
+
+.sections {
+    margin-left:15em;
+    width:200px;
+    display:flex;
+    flex-direction: column;
+    padding:2em;
+}
